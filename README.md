@@ -1,48 +1,44 @@
-# Student Performance Prediction using Multiple Linear Regression
+# AI & ML Learning Repository
 
-This project demonstrates multiple linear regression using a small, synthetic dataset related to student performance.
+This repository documents my learning journey in Artificial Intelligence and Machine Learning fundamentals.
 
-The objective is to understand how multiple features together influence a target variable.
+It contains small, focused projects created to understand core concepts such as:
+- Search algorithms
+- Supervised machine learning
+- Regression models
+- Natural Language Processing basics
 
-## Dataset
+The projects are academic and learning-oriented. External references were used to understand concepts, and the implementations are well understood and explainable.
 
-- Manually created dataset
-- Features:
-  - Hours studied
-  - Attendance percentage
-  - Assignment score
-- Target:
-  - Final student score
+## Projects Included
 
-This dataset is intentionally simple and is used for learning purposes.
+### 1. Maze Solver
+- Breadth First Search (BFS)
+- Depth First Search (DFS)
+- Grid-based maze representation
+- Path reconstruction using parent tracking
 
-## Approach
+### 2. Sentiment Analysis
+- Text preprocessing
+- Feature extraction using TF-IDF
+- Classification using Logistic Regression
+- Model evaluation using accuracy and classification report
 
-1. Create a structured dataset using pandas
-2. Inspect dataset information and check for missing values
-3. Select multiple input features and a target variable
-4. Split data into training and testing sets
-5. Train a Multiple Linear Regression model
-6. Make predictions on test data
-7. Evaluate model performance
+### 3. Regression Models
+- House price prediction using a real-world dataset
+- Comparison of Linear Regression, SVR, and Random Forest
+- Student performance prediction using Multiple Linear Regression
 
-## Model Used
+## Technologies Used
 
-- Multiple Linear Regression
-
-## Evaluation Metrics
-
-- Mean Squared Error (MSE)
-- R² Score
-
-## Visualization
-
-- Scatter plot comparing actual vs predicted student scores
-
-## Files
-
-- `student_performance.py` — Implementation of dataset creation, model training, prediction, and evaluation
+- Python
+- pandas
+- numpy
+- scikit-learn
+- nltk
+- matplotlib
+- seaborn
 
 ## Purpose
 
-This project was created to understand the concept of multiple linear regression and how multiple input variables affect predictions.
+This repository reflects continuous learning and practice of AI and ML concepts, starting from fundamentals and gradually progressing toward more advanced topics.
