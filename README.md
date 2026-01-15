@@ -1,29 +1,48 @@
-# AI & ML Learning Repository
+# Student Performance Prediction using Multiple Linear Regression
 
-This repository documents my learning journey in Artificial Intelligence and Machine Learning fundamentals.
+This project demonstrates multiple linear regression using a small, synthetic dataset related to student performance.
 
-It contains small, focused projects implemented to understand core concepts such as:
-- Search algorithms (BFS, DFS)
-- Basic Natural Language Processing
-- Feature extraction using TF-IDF
-- Training and evaluating simple ML models
+The objective is to understand how multiple features together influence a target variable.
 
-These projects are academic and learning-oriented. External references were used for understanding concepts, and the implementations are well understood and explainable.
+## Dataset
 
-I plan to continuously extend this repository as I learn more advanced techniques.
+- Manually created dataset
+- Features:
+  - Hours studied
+  - Attendance percentage
+  - Assignment score
+- Target:
+  - Final student score
 
-## Projects Included
+This dataset is intentionally simple and is used for learning purposes.
 
-- Maze Solver using BFS and DFS
-- Sentiment Analysis using TF-IDF and Logistic Regression
+## Approach
 
-## Technologies Used
+1. Create a structured dataset using pandas
+2. Inspect dataset information and check for missing values
+3. Select multiple input features and a target variable
+4. Split data into training and testing sets
+5. Train a Multiple Linear Regression model
+6. Make predictions on test data
+7. Evaluate model performance
 
-- Python
-- scikit-learn
-- pandas
-- nltk
+## Model Used
 
----
+- Multiple Linear Regression
 
-This repository reflects learning progress, not production-ready systems.
+## Evaluation Metrics
+
+- Mean Squared Error (MSE)
+- R² Score
+
+## Visualization
+
+- Scatter plot comparing actual vs predicted student scores
+
+## Files
+
+- `student_performance.py` — Implementation of dataset creation, model training, prediction, and evaluation
+
+## Purpose
+
+This project was created to understand the concept of multiple linear regression and how multiple input variables affect predictions.
